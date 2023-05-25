@@ -1,0 +1,45 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 20px;
+}
+#form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+#searchInput{
+    width: 75%;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+.buttons{
+    margin: 12px 5px;
+}
+#searchButton{
+    width: 80px;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    background-color: #1bcd5d;
+    color: antiquewhite;
+    box-shadow: 1px 2px 5px 0px #011402
+}
+#clearButton{
+    width: 80px;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    background-color: #1b64cd;
+    color: antiquewhite;
+    box-shadow: 1px 2px 5px 0px #011402; 
+}
+.image-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
